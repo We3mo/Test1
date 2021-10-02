@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset = "utf-8">
+        <!-- <title>Watches</title> -->
+		<!-- <link rel = "stylesheet" type = "text/css" href = "css\styles.css"> -->
+		<!-- <script src ="js\home.js"></script> -->
+		
+		<style type = "text/css">
+            <!-- for Image -->
+            .position1 { position: relative;
+			            top: -19px;
+                            left:  -500px; }
+	        
+			p.inset {border-style: inset;
+			         background-color: #D4E6F1;
+			        border-color: #D4E6F1;
+					margin-top: 50px;
+                    margin-left: 700px;
+					padding: 30px;
+					width: 150px;
+					font-size: 21px;
+			        }
+					
+			div.round {border-style: inset;
+			        background-color: #D4E6F1;
+			        border-color: #D4E6F1;
+					border-radius: 12px;
+					padding: 3px;
+					margin-left: 250px;
+					width: 650px;
+					height: 270px;
+					
+			        }
+					
+			div.solid { position: relative;
+			            border-style: solid;
+						padding: 1px;
+						margin-top: -10px;
+						margin-left: 20px;
+						width: 600px;
+					    height: 210px;
+                           	   }
+			
+			div.relative { position: relative;
+					       top: 20px;
+                           left:  -150px;
+					       margin-left: 20px;
+					       margin-right: 20px;
+
+						   }
+						   
+			div.relative3 { position: relative;
+			                top: -70px;
+						    left: 300px;
+                           	   }
+						   
+			.dropdown { position: relative;
+			                top: -150px;
+							display: inline-block;
+                           	   }
+							   
+			.dropdown-content { display: none;
+                                position: relative;
+                                background-color: #f1f1f1;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                z-index: 1;
+                                }
+
+            .dropdown-content a { color: black;
+                                  padding: 12px 16px;
+                                  text-decoration: none;
+                                  display: block;
+								  text-align: left;
+                                }
+
+            .dropdown-content a:hover {background-color: #ddd;}
+
+            .dropdown:hover .dropdown-content {display: block;}
+
+            .dropdown:hover .dropbtn {background-color: #F1948A;}
+						
+            .dropbtn { background-color: #7FB3D5;
+                       color: white;
+                       padding: 5px;
+                       font-size: 16px;
+                       border: none;
+                    }						
+     
+        </style>
+
+    </head>
+	
+<!--body-->
+<body  style = "overflow-x:hidden; background-color:#F8F9F9; text-align:center;  ">
+		<p class="inset">  Mechanical Seals  </p>
+		
+		<div class="round" >
+		    <h2 style="margin-top: -1px;" > MECHANICAL SEALS STOCK </h2>
+			
+			<div class="solid" >
+			    <div class="relative" > 
+		            <label for="name" > <p style="font-size:25px"> Division : </p>  
+			    
+				        <div class="relative3">
+			                <img  src="refinery.jpg" alt="refinery.jpg" width="200" height="142" >
+				        </div>	
+				
+				        <div class="dropdown">
+                            <button class="dropbtn">Select 
+							    <i > <img  style ="margin-top:1px;" src="1200px-Caret_down_font_awesome.svg.png" alt="fa carent down.png" width="15" height="16" > </i>
+							</button>
+                                <div class="dropdown-content">
+								    <a href="plants_gasification.html">Gasification</a>
+									<a href="#">IGCC Utilities & Cogeneration</a>
+									<a href="#">North Refinery</a>
+									<a href="#">Product Movement Division</a>
+									<a href="#">Product MOV & Utilities</a>
+									<a href="#">South Refinery</a>
+									<a href="#">Utilities & Cogeneration</a>
+								</div>
+						
+						
+				        </div>	
+			        </label>					
+															
+		        </div>
+			</div> 
+		</div>
+		
+		
+		
+		<script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function() {
+                output.innerHTML = this.value;
+            }
+        </script>
+
+		
+<!-- ---------------------------------------- -->
+
+    </body>
+
+</html>
