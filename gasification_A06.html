@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <!-- <title>Watches</title> -->
+		<!-- <link rel = "stylesheet" type = "text/css" href = "css\styles.css"> -->
+		<!-- <script src ="js\home.js"></script> -->
+		
+		<style type = "text/css">
+		    body {  text-align:left;
+			        background-image: url('11.png'); 
+			        background-attachment: fixed;  
+                    background-size: 100% 100%;
+				    background-repeat: no-repeat;
+					color: #1B2631;
+                 }
+			
+			div.round {border-style: ridge;
+			           background-color: #CEDCE0;
+			           border-color: #2D8AB6;
+					   border-radius: 12px;
+					   padding: 3px;
+					   margin-left: 10px;
+					   margin-top: 50px;
+					   width: 1220px;
+					   height: 480px;
+					
+			        }
+					
+			img.ridge  {border-style: ridge ;
+			           border-color: #D4E6F1;
+					   width: 150px;
+					   font-size: 21px;
+					   margin-top: 8px; 
+					   margin-left: 800px; 
+					   border-radius: 40px;
+					   
+			        }
+					
+			h2 { margin-top: -50px;
+			     margin-left: 400px; 
+				 
+			    }
+							   
+			div.solid { position: relative;
+						padding: 1px;
+						margin-top: 30px;
+						margin-left: 10px;
+						width: 1200px;
+					    height: 210px;
+                           	   }
+			
+			table { padding : 1px; 
+					border-collapse: collapse;
+					width: 100%;
+					font-size: 14px; 
+            }
+
+            td, th {
+                    padding: 2px;
+					border: 1px solid #1B2631;
+					bolder-color: #1B2631 ;
+                    text-align: center;
+                    }
+
+			<!-- p.inset {border-style: inset;
+			         background-color: #D4E6F1;
+			        border-color: #D4E6F1;
+					margin-top: 50px;
+                    margin-left: 700px;
+					padding: 30px;
+					width: 150px;
+					font-size: 21px;
+			        } -->
+        </style>
+
+    </head>
+	
+<!--body-->
+    <body>
+	    <!-- <p class="inset">  Mechanical Seals  </p> -->
+		
+		<div class="round" >
+		    <img  class="ridge " src="mechanical seal2.jpg" alt="mechanical seal2.jpg" >
+		
+		    <h2> MECHANICAL SEALS STOCK </h2>
+			
+			<div class="solid" >
+			    <table >
+				    <tr>
+                        <th colspan="8"> </th>
+						<th colspan="3" style="background-color: #5499C7;">Remaining</th>
+						<th rowspan="2" style="background-color: #F4D03F;">Test Date</th>
+					</tr>
+					
+					<tr>
+                        <th style="background-color: #52BE80;">Division</th>
+                        <th style="width:130px; background-color: #52BE80;">EquipmentTag</th>
+						<th style="background-color: #52BE80;">Manufacturer</th>
+						<th style="background-color: #52BE80;">Plants</th>
+						<th style="background-color: #52BE80;">9COM</th>
+						<th style="width:200px; background-color: #52BE80;">Description</th>
+						<th style="background-color: #52BE80;">PO</th>
+						<th style="background-color: #52BE80;">Remark</th>
+						<th style="background-color: #5499C7;">QTY.</th>
+						<th style="background-color: #5499C7;">Availability</th>
+						<th style="width:40px; background-color: #5499C7;">Bin Location</th>
+					</tr>
+					
+					<tr>
+                        <td >Gasification</td>
+                        <td >A06-G-5004A-6004A/B</td>
+						<td >EAGLEBURGMANN</td>
+						<td >A06</td>
+						<td >1001066044</td>
+						<td >MECHANICAL SEAL; SIZE 63.5 MM,API CODE C1A1A3265,MFG CODE AQ1KM5G,API682, MECHANICAL SEAL WITH API PLAN 32/65, DRIVE END, CCW (ROTATION),1CW-FL SEAL CONFIGURATION, STATIC SEALING PRESSURE RATING: 1.7 BAR (25 PSIG), USED FOR#SOOT WATER TANK CENTRIFUGAL PUMPS WITH TAG NUMBER: A06-G-5004A/B & A06-G-6004A/B , PUMP MANUFACTURED BY: ITT GOULDS</td>
+						<td >4506157622</td>
+						<td ></td>
+						<td >1</td>
+						<td >A</td>
+						<td >G3-S02</td>
+						<td >10/11/2020</td>
+					</tr>
+					
+
+                </table>
+
+			</div> 
+		</div>
+
+<!-- ---------------------------------------- -->
+	
+		<script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+
+            slider.oninput = function() {
+                output.innerHTML = this.value;
+            }
+        </script>
+
+    </body>
+
+</html>
