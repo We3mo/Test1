@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
         <meta charset = "utf-8">
         <!-- <title>Watches</title> -->
 		<!-- <link rel = "stylesheet" type = "text/css" href = "css\styles.css"> -->
 		<!-- <script src ="js\home.js"></script> -->
 		
 		<style type = "text/css">
-            <!-- for Image -->
-            .position1 { position: relative;
-			            top: -19px;
-                            left:  -500px; }
-	        
-			p.inset {border-style: inset;
-			         background-color: #D4E6F1;
-			        border-color: #D4E6F1;
-					margin-top: 50px;
-                    margin-left: 700px;
-					padding: 30px;
-					width: 150px;
-					font-size: 21px;
+		    body {  text-align:left;
+			        background-image: url('11.png'); 
+			        background-attachment: fixed;  
+                    background-size: 100% 100%;
+				    background-repeat: no-repeat;
+					color: #1B2631;
+                 }
+				 
+			img.ridge  {border-style: ridge ;
+			           border-color: #D4E6F1;
+					   width: 150px;
+					   font-size: 21px;
+					   margin-top: 8px; 
+                       margin-left: 450px;
+					   border-radius: 40px;
 			        }
 					
-			div.round {border-style: inset;
-			        background-color: #D4E6F1;
-			        border-color: #D4E6F1;
-					border-radius: 12px;
-					padding: 3px;
-					margin-left: 250px;
-					width: 650px;
-					height: 270px;
+			div.round {border-style: ridge;
+			           background-color: #CEDCE0;
+			           border-color: #2D8AB6;
+					   border-radius: 12px;
+					   padding: 3px;
+					   margin-left: 50px;
+					   margin-top: 50px;
+					   width: 650px;
+					   height: 390px;
 					
 			        }
+					
+			h2 { margin-top: -50px;
+			     margin-left: 80px; 
+				 
+			    }
 					
 			div.solid { position: relative;
-			            border-style: solid;
+			            border-style: groove ;
+						border-color: #27AE60;
 						padding: 1px;
-						margin-top: -10px;
+						margin-top: 30px;
 						margin-left: 20px;
-						width: 600px;
-					    height: 210px;
+						width: 605px;
+					    height: 250px;
                            	   }
-			
-			div.relative { position: relative;
-					       top: 20px;
-                           left:  -150px;
-					       margin-left: 20px;
+					
+			div.relative { position: relative;						   
+						   padding : 1px; 
+						   margin-top: 4px;  
+					       margin-left: 25px;
 					       margin-right: 20px;
-
+					       font-size: 18px; 
 						   }
 						   
 			div.relative3 { position: relative;
-			                top: -70px;
-						    left: 300px;
+			                top: -55px;
+						    left: 360px;
                            	   }
 						   
 			.dropdown { position: relative;
-			                top: -150px;
-							display: inline-block;
+			            top: -205px;
+						margin-left: 100px; 
+					    display: inline-block;
                            	   }
 							   
 			.dropdown-content { display: none;
                                 position: relative;
-                                background-color: #f1f1f1;
+                                background-color: #EBEFF1;
                                 min-width: 160px;
                                 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
                                 z-index: 1;
+								font-size: 18px; 
+								color: #1B2631;
                                 }
 
-            .dropdown-content a { color: black;
+            .dropdown-content a { color: #1B2631;
                                   padding: 12px 16px;
                                   text-decoration: none;
                                   display: block;
@@ -83,8 +95,8 @@
 						
             .dropbtn { background-color: #7FB3D5;
                        color: white;
-                       padding: 5px;
-                       font-size: 16px;
+                       padding: 3px;
+                       font-size: 18px;
                        border: none;
                     }						
      
@@ -93,18 +105,18 @@
     </head>
 	
 <!--body-->
-<body  style = "overflow-x:hidden; background-color:#F8F9F9; text-align:center;  ">
-		<p class="inset">  Mechanical Seals  </p>
-		
+    <body >
 		<div class="round" >
-		    <h2 style="margin-top: -1px;" > MECHANICAL SEALS STOCK </h2>
+		    <img  class="ridge " src="mechanical seal2.jpg" alt="mechanical seal2.jpg" >
+		
+		    <h2> MECHANICAL SEALS STOCK </h2>
 			
 			<div class="solid" >
 			    <div class="relative" > 
 		            <label for="name" > <p style="font-size:25px"> Division : </p>  
 			    
 				        <div class="relative3">
-			                <img  src="refinery.jpg" alt="refinery.jpg" width="200" height="142" >
+			                <img style=" border-style: ridge ; border-color: #D4E6F1; border-radius: 12px; " src="refinery.jpg" alt="refinery.jpg" width="200" height="142" >
 				        </div>	
 				
 				        <div class="dropdown">
@@ -113,12 +125,12 @@
 							</button>
                                 <div class="dropdown-content">
 								    <a href="plants_gasification.html">Gasification</a>
-									<a href="#">IGCC Utilities & Cogeneration</a>
-									<a href="#">North Refinery</a>
-									<a href="#">Product Movement Division</a>
-									<a href="#">Product MOV & Utilities</a>
-									<a href="#">South Refinery</a>
-									<a href="#">Utilities & Cogeneration</a>
+									<a href="plants_IGCC-utilities&cogeneration.html">IGCC Utilities & Cogeneration</a>
+									<a href="plants_north-refinery.html">North Refinery</a>
+									<a href="plants_Product-movement-division.html">Product Movement Division</a>
+									<a href="plants_product-MOV&utilities.html">Product MOV & Utilities</a>
+									<a href="plants_south-refinery.html">South Refinery</a>
+									<a href="plants_utilities&cogeneration.html">Utilities & Cogeneration</a>
 								</div>
 						
 						
@@ -126,10 +138,12 @@
 			        </label>					
 															
 		        </div>
+			   
 			</div> 
 		</div>
+
 		
-		
+<!-- ---------------------------------------- -->
 		
 		<script>
             var slider = document.getElementById("myRange");
@@ -140,9 +154,6 @@
                 output.innerHTML = this.value;
             }
         </script>
-
-		
-<!-- ---------------------------------------- -->
 
     </body>
 
